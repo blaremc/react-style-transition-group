@@ -43,7 +43,7 @@ var ReactStyleTransitionGroupChild = React.createClass({
   },
 
   transition: function(animationType, finishCallback) {
-    var node = ReactDOM.findDOMNode();
+    var node = ReactDOM.findDOMNode(this);
     var noEventTimeout = null;
 
     var transitionStyles = this.props.transitionStyles[animationType];
