@@ -83,7 +83,7 @@ var ReactStyleTransitionGroupChild = React.createClass({
     if (this.isMounted()) {
       this.stylesQueue.forEach(
         function (styles) {
-          CSSPropertyOperations.setValueForStyles(this.getDOMNode(), styles);
+          CSSPropertyOperations.setValueForStyles(ReactDOM.findDOMNode(this), styles);
         }.bind(this)
       );
     }
