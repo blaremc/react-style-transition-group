@@ -1,6 +1,6 @@
 {
   "name": "react-style-transition-group",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Similar to React's CSSTransitionGroup, but uses style updates instead of class updates",
   "main": "index.js",
   "scripts": {
