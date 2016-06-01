@@ -14,7 +14,7 @@
 
 var React = require('react');
 
-var assign = require('react/lib/Object.assign');
+var assign = Object.assign;
 
 var ReactTransitionGroup = React.createFactory(
   require('react/lib/ReactTransitionGroup')
